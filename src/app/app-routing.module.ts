@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'menu',
+    loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
+  },
+  {
+    path: 'enter-otp',
+    loadChildren: () => import('./enter-otp/enter-otp.module').then( m => m.EnterOtpPageModule)
+  },
 ];
 
 @NgModule({

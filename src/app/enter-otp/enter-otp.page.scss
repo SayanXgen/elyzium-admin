@@ -1,0 +1,20 @@
+.logo {
+    width: 200px;
+    margin: 0px auto;
+}
+
+ion-content {
+    --background: url("../../assets/images/slider5.JPG") no-repeat center / cover;
+}
+
+.loginForm {
+    width: 330px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255 255 255 / 94%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px var(--ion-color-primary);
+}

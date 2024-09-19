@@ -1,0 +1,48 @@
+<ion-split-pane when="md" contentId="main">
+  <ion-menu side="start" type="push" contentId="main">
+    <ion-content>
+      <ion-row class="ion-margin-top ion-margin-bottom top-logo">
+        <ion-col size="10" offset="1">
+          <ion-img class="logo" src="assets/images/logo.png"></ion-img>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-list>
+            <ion-item>
+              <ion-img src="assets/images/customer-engagement.png"></ion-img>
+              <ion-label color="secondary">
+                <b>Clients</b>
+              </ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-img src="assets/images/blueprint.png"></ion-img>
+              <ion-label color="secondary">
+                <b>Projects</b>
+              </ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-img src="assets/images/drawing.png"></ion-img>
+              <ion-label color="secondary">
+                <b>Sketching</b>
+              </ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-img src="assets/images/work.png"></ion-img>
+              <ion-label color="secondary">
+                <b>Office Work</b>
+              </ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-img src="assets/images/interior-design.png"></ion-img>
+              <ion-label color="secondary">
+                <b>Site Work</b>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-split-pane>
